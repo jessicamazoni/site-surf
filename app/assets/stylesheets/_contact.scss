@@ -1,0 +1,109 @@
+.contact {
+  background-color: #3BA4FA;
+  color: white;
+  //margin-bottom: 2.5em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+.contact__h1--colorWhite {
+  color: #fff;
+}
+.contact__h1 {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+.contact__h1--font {
+  font-family: arial;
+}
+.contact__h3 {
+  margin-bottom: 0.7em;
+}
+
+.contact__h3--colorWhite {
+  color: #fff;
+}
+.contact__p {
+  width: 90%;
+  margin-bottom: 3em;
+}
+.contact__icons {
+  padding-right: 1.5em;
+}
+.contact__icons--tamanho {
+  width: 12%;
+}
+.contact__input {
+  color: #3BA4FA;
+  width: 85%;
+  margin-bottom: 1.5em;
+}
+.contact__input.textarea {
+  resize: none;
+  height: 8em;
+}
+.contact__input:focus {
+  color: #3BA4FA;
+  outline: 0 !important;
+}
+.contact__input::-webkit-input-placeholder {
+  color: #3BA4FA;
+}
+
+.contact__submit {
+  background-color: #3BA4FA !important;
+  border-color: white!important;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-primary:hover{
+  background-color: #F0F078!important;
+  border-color: #F0F078!important;
+  color: #3BA4FA!important;
+}
+
+.contact__submit--position {
+  text-align: center;
+  width: 85%;
+}
+
+/* MEDIA QUERY RESPONSIVO*/
+@media (min-width: 576px) and (max-width: 1024px) {
+  .contact__info {
+    width: 100%;
+    padding-left: 5em;
+  }
+  .contact__input {
+    width: 100%;
+  }
+  .contact__icons--tamanho {
+    width: 3.4em;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact__input {
+    width: 100%;
+  }
+  .contact__icons--tamanho {
+    width: 17%;
+  }
+  .contact__submit--position {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 380px) {
+  .contact__icons--tamanho {
+    width: 19%;
+  }
+}
+@media (max-width: 360px) {
+  .contact__icons--tamanho {
+    width: 19%;
+  }
+}
+@media (max-width: 325px) {
+  .contact__icons--tamanho {
+    width: 23%;
+  }
+}

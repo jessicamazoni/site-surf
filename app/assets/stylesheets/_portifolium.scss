@@ -1,0 +1,75 @@
+// CSS DO ALUGUEL DE PRANCHAS
+
+.portifolium__background {
+  background-color: #fff;
+  padding: 2.5em 0;
+}
+
+.carousel-control, .carousel-control:hover {
+   opacity: 1;
+   color: red;
+} 
+
+.portifolium__a {
+  color: black;
+  text-align: center;
+}
+
+.carousel__transition{
+  transition: transform 30s ease, opacity .60s ease-out;
+}
+
+.test__margin{
+  margin: 0 auto;
+  width: 50%;
+}
+.carousel__img{
+  height: 75vh; 
+}
+
+.carousel__background{
+  background-color: #3ba4fae0;
+  text-align: center;
+
+}
+
+.portifolium__p {
+  text-indent: 3em;
+  text-align: justify;
+}
+.portifolium__h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-bottom: 1.5em;
+}
+.portifolium__h1--font {
+  font-family: arial;
+}
+.portifolium__h1--colorBlue {
+  color: #3BA4FA;
+}
+
+.portifolium__picture {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.carousel-indicators {
+  bottom: -40px;
+}
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+}
+
+#portifolium__carouselSite {
+  padding: 0;
+}
+
+.portifolium__btn {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}

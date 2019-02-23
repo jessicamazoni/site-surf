@@ -1,0 +1,49 @@
+/* CSS DO BUNNER */
+
+.sectionBunner__bunner {
+  background-image: url(1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionBunner__titleContainer {
+  color: #fff;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.sectionBunner__contactButton {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sectionBunner__contactButton--color {
+  background-color: #2492F3 !important;
+  border-color: #2492F3 !important;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .sectionBunner__titleContainer {
+    font-size: 1.2rem;
+  }
+  .sectionBunner__bunner {
+  background-image: url(mobile.jpeg);
+  }
+}
+
+@media (max-width: 400px) {
+  .sectionBunner__titleContainer {
+    font-size: 1rem;
+  }
+}

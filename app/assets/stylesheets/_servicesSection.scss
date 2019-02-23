@@ -1,0 +1,83 @@
+.services__background {
+  background-color: #e2e2e238;
+  padding: 2.5em 0;
+}
+.services__h1 {
+  text-align: center;
+}
+.services__h1--font {
+  font-family: arial;
+}
+.services__h1--colorBlue {
+  color: #2492F3;
+}
+.services__p {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services__h3 {
+  text-align: center;
+  padding-top: 25px;
+  align-items: center;
+}
+.services__images {
+  display: block;
+  width: 100%;
+}
+
+.service__title{
+  color: #3BA4FA;
+  text-align: center;
+}
+
+.service__card {
+  background-color: #F0F078;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 0.5em;
+  height: 100%;
+  border-radius: 4px;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+}
+
+.service__icon {
+  width: 30%;
+  display: block;
+  margin: 0.5em auto 0.5em;
+}
+
+.service__text {
+  text-align: center;
+  color: #2492F3;
+}
+
+.service__marginTop {
+  margin-top: 2.5em;
+}
+
+@media (max-width: 576px) {
+  .service__marginTop {
+    margin-top: 2em;
+  }
+  .service__text {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+/* MEDIA QUERY RESPONSIVO Ainda sendo ajustado*/
+@media (max-width: 768px) {
+  .services__p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+}
